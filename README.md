@@ -1,14 +1,20 @@
-# Supplementary Code README
+# IEM-TransMIL
 
-## 1. Overview
-This supplementary package contains the code used in our study on CT-based multiclass diagnosis of inner ear malformations (IEMs). The package includes three components:
+Official PyTorch implementation of:
 
-1. `preprocess.ipynb`: image preprocessing and ROI extraction
-2. `TransMIL_main.py`: model training and inference
-3. `gradcam.py`: Grad-CAM visualization for explainability
+"Deep Learning for Subtype Classification of Inner Ear Malformations on Temporal Bone HRCT: Development and Multicenter Validation"
 
+## Overview
 
-These materials are provided to facilitate methodological review and reproducibility assessment during peer review.
+This repository contains the code used in our study on CT-based multiclass diagnosis of inner ear malformations (IEMs).
+
+The repository includes:
+
+- `preprocess.ipynb`: image preprocessing and ROI extraction
+- `TransMIL_main.py`: model training and inference
+- `gradcam.py`: Grad-CAM visualization for explainability
+
+The code is released to support reproducible research and future development of AI-assisted diagnosis for inner ear malformations.
 
 ## 2. Included files
 
@@ -49,7 +55,7 @@ This script generates Grad-CAM visualizations based on the trained model. It:
 
 ## 3. Software environment
 The code was developed in Python and depends mainly on the following packages:
-- Python 3.x
+- Python 3.9
 - PyTorch
 - torchvision
 - numpy
@@ -165,10 +171,11 @@ Depending on the mode, the script may generate:
 5. The code is intended for research verification and not for direct clinical deployment.
 
 
-## 8. Notes for peer review
-- No patient-identifiable data are included in this supplementary code package. Data availability is subject to institutional ethics and data security restrictions.
-- The model code is provided as supplementary material for peer review and will be made publicly available on GitHub upon acceptance of the manuscript.
-- If additional information is required to understand the scripts or reproduce specific outputs, it can be provided by the corresponding/lead contact upon request.
+## 8. Data Availability
+
+- No patient-identifiable data are included in this repository.
+- The imaging datasets used in this study are not publicly available because of institutional ethics and data security restrictions.
+- Researchers interested in collaboration or additional information may contact the corresponding author.
 
 ## 9. Contact
 For questions regarding code structure, execution details, or output interpretation, please contact the corresponding/lead author.
