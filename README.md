@@ -27,7 +27,7 @@ This Jupyter notebook contains the main preprocessing workflow:
 
 The notebook is organized as a step-by-step workflow and includes a single-case example at the end.
 
-### `TransMIL-main.py`
+### `TransMIL_main.py`
 This is the main script for model training and inference. It includes:
 - loading of ROI-based NIfTI volumes
 - uniform sampling of 30 slices per case
